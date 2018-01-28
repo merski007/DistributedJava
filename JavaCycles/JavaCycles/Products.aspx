@@ -14,7 +14,7 @@
         </thead>
         <tbody>
             <tr class="product-row" id="prod1">
-                <td>Trek Madone 9.9</td>
+                <td><a href="ProductDetails.aspx">Trek Madone 9.9</a></td>
                 <td>It doesn't get better than this. Madone 9.9 is the final stop in your search for a top-of-the-line superbike. It's the choice of the pros of Trek-Segafredo, and for good reason: advanced road bike aerodynamics, light weight, the highest level parts spec, and the finest ride quality available.</td>
                 <td>$11,999 - $12,499</td>
             </tr>

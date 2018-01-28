@@ -27,3 +27,16 @@ textarea {
         padding: 0;
     }
 }
+
+.prodDetailImg {
+    width:400px;
+    height:auto;
+}
+
+.prodDetailDesc {
+
+}
+
+.container {
+    /*border:solid 1px black;*/
+}

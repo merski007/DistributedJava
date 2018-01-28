@@ -9,7 +9,7 @@
         <p><button id="learnMore" class="btn btn-primary btn-lg">Learn more &raquo;</button></p>
     </div>
 
-    <div class="row">
+<%--    <div class="row">
         <div class="col-md-4">
             <h2>Getting started</h2>
             <p>
@@ -38,6 +38,14 @@
                 <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
             </p>
         </div>
-    </div>
-</asp:Content>
+    </div>--%>
 
+    <script>
+        $(document).ready(function () {
+            //alert("this works");
+            $('#learnMore').click(function () {
+                alert("You clicked this button, you're awesome!!!");
+            });
+        });
+    </script>
+</asp:Content>
