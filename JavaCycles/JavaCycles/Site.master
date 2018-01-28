@@ -52,8 +52,19 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/Products">Products</a></li>
-                        <li><a runat="server" href="~/Contact">Shopping Cart</a></li>
+                        <li><a runat="server" href="~/ShoppingCart">Shopping Cart</a></li>
+                        <%--<li><input type="text" class="form-control" placeholder="Search for..." /></li>--%>
                     </ul>
+                    <div class="col-sm-3 col-md-3">
+                        <div class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="q">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
